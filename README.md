@@ -76,7 +76,7 @@ This plot compares City vs Airport in terms of ride completion, cancellations, a
 
 SQL query used to generate the above chart by grouping based on pickup point.
 
-![Step 8](images/uber_8.png)
+![Step 8](https://github.com/TanmaySingh007/UberDemandSupply/blob/d9d03bceba55f8ffe8b385968e6bb1a1fcec34f5/uber_8.png)
 
 ---
 
