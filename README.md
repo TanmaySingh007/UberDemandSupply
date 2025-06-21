@@ -41,7 +41,7 @@ This query groups the requests by pickup point (Airport/City) and status.
 ---
 
 ### Step 4: Requests by Pickup Point (Seaborn)
-![Step 4](/mnt/data/Uber 7.png)
+![Step 4](https://github.com/TanmaySingh007/UberDemandSupply/blob/2bccf85cce08aa8a81844e49c02ff9ad00d59a5b/uber_4.png)
 
 From this visualization:
 - **Airport** has the highest **"No Cars Available"** issue.
