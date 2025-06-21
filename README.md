@@ -24,7 +24,7 @@ The Excel file is read using Pandas, and the data is loaded into a SQLite databa
 ---
 
 ### Step 2: Total Request Count by Status (SQL + Plot)
-![Step 2](/mnt/data/UBER 9.png)
+![Step 2](https://github.com/TanmaySingh007/UberDemandSupply/blob/c74a897a66944af73b03572c4b1910a3fc7bcb19/uber_2.png)
 
 The total number of ride requests is counted by status using SQL. The plot shows:
 - Most rides were **completed**
