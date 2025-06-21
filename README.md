@@ -88,11 +88,11 @@ Shows overall demand pattern, including number of completed, cancelled, or faile
 
 ---
 
-### Step 10: Load Excel Data & Create SQLite DB
+### Step 10: Request Status By Pickpoint
 
-Final setup stage showing Excel being loaded and converted for querying.
+Final setup stage showing Request Status By pickpoint .
 
-![Step 10](images/uber_11.png)
+![Step 10]()
 
 ---
 
