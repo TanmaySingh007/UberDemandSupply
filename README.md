@@ -16,81 +16,83 @@ This project analyzes the demand-supply gap for Uber rides using data visualizat
 
 ## 🔍 Project Workflow & Visualizations
 
-### Step 1: Load Excel Data & Create SQLite DB
-![Step 1](https://github.com/TanmaySingh007/UberDemandSupply/blob/7adca5956695d4f4669ec2f7d4e316d6a5ea031b/uber_1.png)
+### Step 1: Initial Data Preview
 
-The Excel file is read using Pandas, and the data is loaded into a SQLite database for SQL querying.
+We start by loading the Excel file and viewing the first few rows of the dataset.
 
----
-
-### Step 2: Total Request Count by Status (SQL + Plot)
-![Step 2](https://github.com/TanmaySingh007/UberDemandSupply/blob/035434e6b1eb8657bc25dc72dc7b476f8f639b64/uber_7.png)
-
-The total number of ride requests is counted by status using SQL. The plot shows:
-- Most rides were **completed**
-- Large number marked **No Cars Available**
-- Significant number of **cancellations**
+![Step 1](images/uber_1.png)
 
 ---
 
-### Step 3: SQL Grouping by Pickup Point and Status
-![Step 3](https://github.com/TanmaySingh007/UberDemandSupply/blob/59119f2170697c2f154352fa2abb2f822b005b8b/uber_11.png)
+### Step 2: Data Loaded into SQLite
 
-This query groups the requests by pickup point (Airport/City) and status.
+The data is converted and loaded into a SQLite database using Python.
 
----
-
-### Step 4: Requests by Pickup Point (Seaborn)
-![Step 4](https://github.com/TanmaySingh007/UberDemandSupply/blob/e279fce92f8602db22d3f3da493200aa4ccf756d/uber_5.png)
-
-From this visualization:
-- **Airport** has the highest **"No Cars Available"** issue.
-- **City** sees more **"Cancelled"** trips.
+![Step 2](images/uber_2.png)
 
 ---
 
-### Step 5: SQL Grouping by Time Slot and Status
-![Step 5](/mnt/data/Uber 6.png)
+### Step 3: SQL Execution Commands and Setup
 
-Here, requests are grouped based on time slot and their statuses using SQL.
+We use SQLite magic commands in Jupyter for querying the data directly using SQL.
 
----
-
-### Step 6: Requests by Time Slot (Seaborn)
-![Step 6](/mnt/data/Uber 5.png)
-
-Clear trends:
-- Evening slots have **very high no car availability**
-- Early morning shows **high cancellations**
-- Midday and evening have relatively high successful trips
+![Step 3](images/uber_3.png)
 
 ---
 
-### Step 7: Time Slot vs Status (Table View)
-![Step 7](/mnt/data/Uber 4.png)
+### Step 4: Time Slot vs Status (Table View)
 
-A clean tabular format displaying the distribution of trip statuses by time slots.
+A breakdown of how different time slots affect ride statuses (Cancelled, Completed, No Cars Available).
 
----
-
-### Step 8: SQL Execution Commands and Setup
-![Step 8](/mnt/data/Uber 3.png)
-
-Commands to connect to the SQLite DB and apply styling for clean output formatting.
+![Step 4](images/uber_4.png)
 
 ---
 
-### Step 9: Data Loaded into SQLite
-![Step 9](/mnt/data/Uber 2.png)
+### Step 5: Requests by Time Slot (Seaborn)
 
-SQL execution is shown using the SQLite magic commands in Jupyter.
+Visual representation of status vs time slots to identify patterns.
+
+![Step 5](images/uber_5.png)
 
 ---
 
-### Step 10: Initial Data Preview
-![Step 10](/mnt/data/Uber 1.png)
+### Step 6: SQL Grouping by Time Slot and Status
 
-First few rows of the loaded dataset—shows key fields like pickup point, driver ID, timestamp, and time slot.
+SQL query output that counts how many rides were Cancelled, Completed, or Unavailable during each time slot.
+
+![Step 6](images/uber_6.png)
+
+---
+
+### Step 7: Requests by Pickup Point (Seaborn)
+
+This plot compares City vs Airport in terms of ride completion, cancellations, and availability.
+
+![Step 7](images/uber_7.png)
+
+---
+
+### Step 8: SQL Grouping by Pickup Point and Status
+
+SQL query used to generate the above chart by grouping based on pickup point.
+
+![Step 8](images/uber_8.png)
+
+---
+
+### Step 9: Total Request Count by Status (SQL + Plot)
+
+Shows overall demand pattern, including number of completed, cancelled, or failed trips.
+
+![Step 9](images/uber_9.png)
+
+---
+
+### Step 10: Load Excel Data & Create SQLite DB
+
+Final setup stage showing Excel being loaded and converted for querying.
+
+![Step 10](images/uber_11.png)
 
 ---
 
@@ -111,6 +113,8 @@ The dataset is named `Final_Uber_Dashboard_With_Charts.xlsx` and should contain 
 ## 🛠 How to Run
 
 1. Clone the repo
-2. Open the Jupyter notebook
-3. Upload the dataset
+2. Upload the dataset
+3. Open the Jupyter Notebook
 4. Execute each cell to run SQL + plots
+
+---
