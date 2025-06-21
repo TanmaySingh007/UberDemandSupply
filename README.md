@@ -36,7 +36,7 @@ The data is converted and loaded into a SQLite database using Python.
 
 We use SQLite magic commands in Jupyter for querying the data directly using SQL.
 
-![Step 3](images/uber_3.png)
+![Step 3](https://github.com/TanmaySingh007/UberDemandSupply/blob/86c4fa22adb877f77c81e27b6f198df20bbc02c8/uber_3.png)
 
 ---
 
