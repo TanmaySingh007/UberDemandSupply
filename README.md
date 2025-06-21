@@ -20,7 +20,7 @@ This project analyzes the demand-supply gap for Uber rides using data visualizat
 
 We start by loading the Excel file and viewing the first few rows of the dataset.
 
-![Step 1](images/uber_1.png)
+![Step 1](https://github.com/TanmaySingh007/UberDemandSupply/blob/d16cb2c386ff24339fef939c4e1df850fda68ebe/uber_1.png)
 
 ---
 
