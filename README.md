@@ -17,7 +17,7 @@ This project analyzes the demand-supply gap for Uber rides using data visualizat
 ## 🔍 Project Workflow & Visualizations
 
 ### Step 1: Load Excel Data & Create SQLite DB
-![Step 1](/mnt/data/UBER 11.png)
+![Step 1](https://github.com/TanmaySingh007/UberDemandSupply/blob/7adca5956695d4f4669ec2f7d4e316d6a5ea031b/uber_1.png)
 
 The Excel file is read using Pandas, and the data is loaded into a SQLite database for SQL querying.
 
