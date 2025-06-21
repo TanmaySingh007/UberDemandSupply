@@ -60,7 +60,7 @@ Visual representation of status vs time slots to identify patterns.
 
 SQL query output that counts how many rides were Cancelled, Completed, or Unavailable during each time slot.
 
-![Step 6](images/uber_6.png)
+![Step 6](https://github.com/TanmaySingh007/UberDemandSupply/blob/26d36ca55531843661bb6ea15b1bfa6322d73386/uber_6.png)
 
 ---
 
