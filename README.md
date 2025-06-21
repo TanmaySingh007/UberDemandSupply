@@ -52,7 +52,7 @@ A breakdown of how different time slots affect ride statuses (Cancelled, Complet
 
 Visual representation of status vs time slots to identify patterns.
 
-![Step 5](images/uber_5.png)
+![Step 5](https://github.com/TanmaySingh007/UberDemandSupply/blob/db2f0610bc71721237f2c01519ff82c76827f0d7/uber_5.png)
 
 ---
 
