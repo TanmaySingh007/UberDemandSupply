@@ -28,7 +28,7 @@ We start by loading the Excel file and viewing the first few rows of the dataset
 
 The data is converted and loaded into a SQLite database using Python.
 
-![Step 2](images/uber_2.png)
+![Step 2](https://github.com/TanmaySingh007/UberDemandSupply/blob/797661294711cc57bf3855d5eb489c4e22b4d6a1/uber_2.png)
 
 ---
 
