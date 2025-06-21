@@ -92,7 +92,7 @@ Shows overall demand pattern, including number of completed, cancelled, or faile
 
 Final setup stage showing Request Status By pickpoint .
 
-![Step 10]()
+![Step 10](https://github.com/TanmaySingh007/UberDemandSupply/blob/bb6c591616c19d23eed5aa00a197e7d37088d9d2/uber_11.png)
 
 ---
 
