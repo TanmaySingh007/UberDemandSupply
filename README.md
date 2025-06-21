@@ -84,7 +84,7 @@ SQL query used to generate the above chart by grouping based on pickup point.
 
 Shows overall demand pattern, including number of completed, cancelled, or failed trips.
 
-![Step 9](images/uber_9.png)
+![Step 9](https://github.com/TanmaySingh007/UberDemandSupply/blob/89b88346d01dfc865dd848ee653c7979a0b5d685/uber_9.png)
 
 ---
 
