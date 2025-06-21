@@ -44,7 +44,7 @@ We use SQLite magic commands in Jupyter for querying the data directly using SQL
 
 A breakdown of how different time slots affect ride statuses (Cancelled, Completed, No Cars Available).
 
-![Step 4](images/uber_4.png)
+![Step 4](https://github.com/TanmaySingh007/UberDemandSupply/blob/19699ee537aa813dba34d7081c7619c6fe968078/uber_4.png)
 
 ---
 
