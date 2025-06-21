@@ -34,7 +34,7 @@ The total number of ride requests is counted by status using SQL. The plot shows
 ---
 
 ### Step 3: SQL Grouping by Pickup Point and Status
-![Step 3](/mnt/data/UBER 8.png)
+![Step 3](https://github.com/TanmaySingh007/UberDemandSupply/blob/2a5d6c363c0118aceab123c2e6c0231aec7ee54a/uber_3.png)
 
 This query groups the requests by pickup point (Airport/City) and status.
 
