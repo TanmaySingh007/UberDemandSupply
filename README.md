@@ -68,7 +68,7 @@ SQL query output that counts how many rides were Cancelled, Completed, or Unavai
 
 This plot compares City vs Airport in terms of ride completion, cancellations, and availability.
 
-![Step 7](images/uber_7.png)
+![Step 7](https://github.com/TanmaySingh007/UberDemandSupply/blob/dbc144e18dc883c7aa9f68ff15ba09e6a5f5b7ca/uber_7.png)
 
 ---
 
